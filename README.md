@@ -5,6 +5,7 @@
 
 
 5. There are 6 different requests for the Hacker News main page.
+
           - news.ycombinator.com: GET
           - y18.gif: GET
           - s.gif: GET
@@ -12,4 +13,4 @@
           - grayarrow.gif: GET
           - favicon.ico: GET
           
-  As we can see in the headers the server's name is "nginx". Looking at the different types of servers available, i belive it's a "web server", a web server serves static content to a Web browser by loading a file from a disk and serving it across the network to a user’s Web browser. This entire exchange is mediated by the browser and server talking to each other using HTTP. The other possiblitie could be a "Proxy Server" but the difference between these two, is that the proxy server looks to improve preformance and share connections, so it's not the main objective of "nginx" which is to upload the informtion to the browser.
+ As we can see in the headers the server's name is "nginx". Looking at the different types of servers available, i belive it's a "web server", a web server serves static content to a Web browser by loading a file from a disk and serving it across the network to a user’s Web browser. This entire exchange is mediated by the browser and server talking to each other using HTTP. The other possiblitie could be a "Proxy Server" but the difference between these two, is that the proxy server looks to improve preformance and share connections, so it's not the main objective of "nginx" which is to upload the informtion to the browser.
